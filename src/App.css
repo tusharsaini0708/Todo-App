@@ -1,7 +1,11 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-image: url("https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,58 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container {
+  position: relative;
+  background-color: white;
+  top: 100px;
+  width: 442px;
+  padding: 0;
+  border: 1px solid lightgray;
+}
+
+.todo {
+  width: 440px;
+  padding: 20px;
+  margin: 0 auto;
+}
+h2 {
+  width: 440px;
+  height: 50px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-top: 3px;
+  border-bottom: 1px solid lightgray;
+  background-color: #f7f7f7;
+}
+.form-control {
+  display: inline;
+  width: 86%;
+}
+.btn {
+  display: inline;
+  position: relative;
+  top: -3px;
+}
+.iconBtn {
+  border: none;
+  width: 50px;
+  height: 35px;
+  border-radius: 7px;
+  margin-right: 5px;
+}
+.fa {
+  color: white;
+  cursor: pointer;
+}
+.checkbox {
+  position: relative;
+  left: -10px;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+}
+
+li:nth-child(odd) {
+  background-color: #f7f7f7;
 }
